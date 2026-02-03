@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eliminar Cuenta - Sandie</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: #FFF5F5;
+            color: #3D0D0D;
+            line-height: 1.7;
+        }
+        .header {
+            background: #3D0D0D;
+            color: white;
+            padding: 32px 20px;
+            text-align: center;
+        }
+        .header h1 {
+            font-size: 28px;
+            margin-bottom: 8px;
+        }
+        .header p {
+            opacity: 0.8;
+            font-size: 14px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        .card {
+            background: white;
+            border-radius: 16px;
+            padding: 32px;
+            margin-bottom: 24px;
+            box-shadow: 0 4px 20px rgba(61, 13, 13, 0.08);
+        }
+        h2 {
+            color: #3D0D0D;
+            font-size: 20px;
+            margin-bottom: 16px;
+            padding-bottom: 12px;
+            border-bottom: 2px solid #FED7D7;
+        }
+        h3 {
+            color: #3D0D0D;
+            font-size: 16px;
+            margin: 20px 0 12px 0;
+        }
+        p {
+            margin-bottom: 12px;
+            color: #555;
+        }
+        ul, ol {
+            margin: 12px 0 12px 24px;
+            color: #555;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .highlight {
+            background: #FFF5F5;
+            border-left: 4px solid #3D0D0D;
+            padding: 16px;
+            margin: 16px 0;
+            border-radius: 0 8px 8px 0;
+        }
+        .warning {
+            background: #FEF3C7;
+            border-left: 4px solid #F59E0B;
+            padding: 16px;
+            margin: 16px 0;
+            border-radius: 0 8px 8px 0;
+        }
+        .back-link {
+            display: inline-block;
+            margin-bottom: 24px;
+            color: #3D0D0D;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        .back-link:hover {
+            text-decoration: underline;
+        }
+        .method-box {
+            background: #F9FAFB;
+            border: 1px solid #E5E7EB;
+            border-radius: 12px;
+            padding: 20px;
+            margin: 16px 0;
+        }
+        .method-box h4 {
+            color: #3D0D0D;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .method-number {
+            background: #3D0D0D;
+            color: white;
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+            font-weight: 600;
+        }
+        .email-link {
+            color: #3D0D0D;
+            font-weight: 600;
+        }
+        .footer {
+            text-align: center;
+            padding: 32px 20px;
+            color: #999;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Eliminar Cuenta</h1>
+        <p>Solicitud de eliminacion de cuenta y datos</p>
+    </div>
+
+    <div class="container">
+        <a href="index.html" class="back-link">&larr; Volver al inicio</a>
+
+        <div class="card">
+            <h2>Como Eliminar tu Cuenta</h2>
+            <p>En Sandie respetamos tu derecho a eliminar tu cuenta y datos personales en cualquier momento. A continuacion te explicamos las diferentes formas de hacerlo.</p>
+
+            <div class="method-box">
+                <h4><span class="method-number">1</span> Desde la Aplicacion (Recomendado)</h4>
+                <p>La forma mas rapida de eliminar tu cuenta:</p>
+                <ol>
+                    <li>Abre la aplicacion Sandie</li>
+                    <li>Ve a la seccion <strong>"Mi Cuenta"</strong></li>
+                    <li>Desplazate hacia abajo hasta encontrar <strong>"Eliminar Cuenta"</strong></li>
+                    <li>Confirma la eliminacion</li>
+                </ol>
+            </div>
+
+            <div class="method-box">
+                <h4><span class="method-number">2</span> Por Correo Electronico</h4>
+                <p>Si no puedes acceder a la aplicacion, envía un correo a:</p>
+                <p><a href="mailto:info@sandie.com?subject=Solicitud%20de%20eliminacion%20de%20cuenta" class="email-link">info@sandie.com</a></p>
+                <p>Incluye en tu correo:</p>
+                <ul>
+                    <li>Asunto: "Solicitud de eliminacion de cuenta"</li>
+                    <li>Numero de telefono registrado en la cuenta</li>
+                    <li>Correo electronico asociado a la cuenta</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Datos que se Eliminaran</h2>
+            <p>Al eliminar tu cuenta, se borraran permanentemente los siguientes datos:</p>
+            <ul>
+                <li><strong>Informacion personal:</strong> Nombre, telefono, correo electronico, fecha de nacimiento</li>
+                <li><strong>Datos de la cuenta:</strong> Historial de puntos, sellos acumulados, recompensas</li>
+                <li><strong>Preferencias:</strong> Configuracion de notificaciones, idioma</li>
+                <li><strong>Historial:</strong> Registro de transacciones y canjes</li>
+            </ul>
+
+            <div class="warning">
+                <strong>Importante:</strong> La eliminacion de la cuenta es permanente e irreversible. Perderas todos tus puntos, sellos y recompensas acumulados. No podras recuperar esta informacion una vez eliminada.
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>Plazo de Eliminacion</h2>
+            <p>Una vez recibida tu solicitud:</p>
+            <ul>
+                <li><strong>Eliminacion desde la app:</strong> Inmediata</li>
+                <li><strong>Solicitud por correo:</strong> Maximo 30 dias</li>
+            </ul>
+            <p>Recibiras una confirmacion cuando tu cuenta haya sido eliminada completamente.</p>
+        </div>
+
+        <div class="card">
+            <h2>Datos que Podemos Retener</h2>
+            <p>Por obligaciones legales, podemos conservar cierta informacion anonimizada:</p>
+            <ul>
+                <li>Registros de transacciones (sin datos personales identificables)</li>
+                <li>Datos estadisticos agregados</li>
+            </ul>
+            <p>Estos datos no pueden ser asociados a tu identidad personal.</p>
+        </div>
+
+        <div class="card">
+            <h2>Contacto</h2>
+            <p>Si tienes preguntas sobre el proceso de eliminacion de cuenta:</p>
+            <ul>
+                <li><strong>Email:</strong> <a href="mailto:info@sandie.com" class="email-link">info@sandie.com</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2026 Sandie Heladeria. Todos los derechos reservados.</p>
+    </div>
+</body>
+</html>
